@@ -1,7 +1,6 @@
 require File.expand_path('../../test_helper', __FILE__)
 
 class UserTest < ActiveSupport::TestCase
-  extend NotificationEvents
   fixtures :users
 
   def setup

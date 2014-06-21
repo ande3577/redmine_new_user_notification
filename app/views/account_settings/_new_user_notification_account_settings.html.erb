@@ -1,0 +1,12 @@
+<% if @user.admin? %>
+	</fieldset>
+	<fieldset class="box">
+		<legend><%=l(:new_user_notification_title)%></legend>
+		<div class="tabular">
+			<%= labelled_fields_for :pref, @user.pref do |pref_fields| %>
+				<p><%= pref_fields.check_box :notify_for_new_user %></p>
+			<% end %>
+		</div>
+	</fieldset>
+<% end %>	
+

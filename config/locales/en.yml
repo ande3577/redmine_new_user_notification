@@ -1,3 +1,5 @@
 # English strings go here for Rails i18n
 en:
   # my_label: "My label"
+  new_user_notification_title: "New User Notification"
+  field_notify_for_new_user: "Notify For New User"

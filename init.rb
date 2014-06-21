@@ -1,3 +1,5 @@
+require_dependency 'new_user_notification_hooks'
+
 Redmine::Plugin.register :redmine_new_user_notification do
   name 'Redmine New User Notification plugin'
   author 'David S Anderson'

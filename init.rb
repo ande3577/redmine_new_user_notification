@@ -1,4 +1,6 @@
 require_dependency 'new_user_notification_hooks'
+require_dependency 'new_user_notification_user_patch'
+require_dependency 'new_user_notification_mailer_patch'
 
 Redmine::Plugin.register :redmine_new_user_notification do
   name 'Redmine New User Notification plugin'

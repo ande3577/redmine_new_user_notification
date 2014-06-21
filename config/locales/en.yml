@@ -3,3 +3,6 @@ en:
   # my_label: "My label"
   new_user_notification_title: "New User Notification"
   field_notify_for_new_user: "Notify For New User"
+  text_user_created: "A new user account has been created."
+  text_user_create_reason: "You are receiving this message because you have chosen to be notified when a new user has registered."
+  text_user_has_created_a_new_account: "A new account has been created for %{name}"

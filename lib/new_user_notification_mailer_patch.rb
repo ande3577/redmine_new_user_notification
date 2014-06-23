@@ -15,7 +15,6 @@ module NewUserNotificationMailerPatch
         references user
         @user = user
         @user_url = url_for(:controller => 'users', :action => 'show', :id => user)
-        Setting.emails_footer = l(:text_user_create_reason) # suppress the footer message, since the user is not subscribed
         mail :to => to,
           :cc => cc,
           :subject => l(:text_user_has_created_a_new_account, :name => user.name)
